@@ -1,0 +1,46 @@
+html, body {
+    background-color: #00CECB;
+}
+canvas {
+    width: 800px;
+    height: 800px;
+    left: 40%;
+    position: absolute;
+}
+
+.shape {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#shape {
+    background:green;
+  }
+
+
+#shapeMain {
+    background:red;
+  }
+  
+#image{
+    background-image: paint(wix);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+  
+#shapes{
+    height: 600px;
+    width: 400px;
+    background: antiquewhite;
+    display: flex;
+    justify-content: center;
+    float: left;
+}

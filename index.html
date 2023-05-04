@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <canvas></canvas>
+    <div>
+      <button id="playBtn" type="button">Play</button>
+      <button id="heavyWorkBtn" type="button">Main Thread heavy task</button>
+      <button id="heavyWorkerBtn" type="button">
+        Worker Thread heavy task
+      </button>
+      <p id="requestAnimationFrameP"></p>
+      <p id="workerTaskP"></p>
+      <p id="mainTaskP"></p>
+    </div>
+    <div id="shapes">
+      <div class="shape" id="shape">PaintWorklet</div>
+      <div class="shape" id="shapeMain">Animation</div>
+    </div>
+    <div id="image"></div>
+    <script src="animations.js"></script>
+    <script src="metrics.js"></script>
+    <script src="mainTask.js"></script>
+    <script src="workerTask.js"></script>
+    <script src="scoreBoard.js"></script>
+    <script src="shape.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
